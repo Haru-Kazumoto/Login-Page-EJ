@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --main-color: #a3a3ab;
+    --based-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.img-container{
+    width: 70%;    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.text h2{
+    color: var(--based-color);
+    padding-top: 300px;
+    font-size: 40px;
+    margin-left: 30px;
+    float: left;
+}
+
+.text h4{
+    color: var(--based-color);
+    padding-top: 370px;
+    margin-left: 30px;
+}
+
+.img-container img{
+    width: auto;
+    height: 100%;
+}
+
+.login-container{
+    width: 30%;
+    height: 100vh;
+    z-index: 3;
+    background-color: var(--based-color);
+}
+
+.login-container h1, .login-container h4{
+    text-align: center;
+}
+
+.login-container h1{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.login-container h4{
+    margin-bottom: 20px;
+}
+
+.login-container img{
+    position: relative;
+    width: 200px;
+    display: block;
+    margin: auto;
+    left: 15px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+}  
+
+.input-box input{
+    padding-left: 10px;
+}
+
+.input-box input, .input-box button{
+    margin: 15px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid;
+    font-size: 17px;
+}
+
+.input-box input:hover {
+    border-color: rgb(0, 51, 204);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.input-box input[type="password"]{
+    margin-bottom: 40px;
+}
+
+.input-box label{
+    margin-top: 20px;
+}
+
+.input-box i{
+    margin-right: 10px;
+    margin-left: 17px;
+}
+
+.input-box button{
+    height: 50px;
+    background-color: rgb(84, 144, 255);
+    color: white;
+    transition: 0.4s;
+}
+
+.input-box button:hover{
+    transition: 0.5s ease;
+    border: 3px solid rgb(84, 144, 255);
+    box-shadow: 0px 18px 57px -13px rgba(0,49,241,0.75);
+    -webkit-box-shadow: 0px 18px 57px -13px rgba(0,49,241,0.75);
+    -moz-box-shadow: 0px 18px 57px -13px rgba(0,49,241,0.75);
+
+}
+
+.divide{
+    margin-top: 120px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+h5{
+    text-align: center;
+    margin: 5px;
+}
